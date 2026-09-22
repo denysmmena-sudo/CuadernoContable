@@ -29,7 +29,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install flet pandas openpyxl reportlab
 
-  - name: 🛠️ Construir APK
+    - name: 🛠️ Construir APK
       run: |
         flet build apk
 
@@ -37,4 +37,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: app-release-apk
-        path: dist/*.apk
+        path: build/apk/app-release.apk
