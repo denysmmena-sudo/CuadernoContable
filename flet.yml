@@ -1,0 +1,6 @@
+app_name: "CuadernoContable"
+app_description: "Cuaderno Contable para tu negocio"
+product: "CuadernoContable"
+org: "com.denysmmena.cuadernocontable"
+# Cambia 'Cuaderno.py' por el nombre exacto de tu archivo principal con el código de Flet:
+main: "Cuaderno.py"
