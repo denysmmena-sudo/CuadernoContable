@@ -1,0 +1,18 @@
+[project]
+name = "cuaderno_contable"
+version = "1.0.0"
+description = "Aplicación de Cuaderno Contable con Flet"
+dependencies = [
+    "flet>=0.20.0",
+    "openpyxl",     # Si usas pandas o openpyxl para leer tus archivos .xlsx
+    # Agrega aquí otras librerías de Python que use tu proyecto (ej: pandas, sqlite3 ya viene incluido en python)
+]
+
+[tool.flet.app]
+product = "Cuaderno Contable"
+company = "MiEmpresa"
+copyright = "Copyright (C) 2026"
+# AQUÍ ES CLAVE: Indica cuál es tu archivo de código principal
+main = "Cuaderno.py"
+# Si usas archivos locales como la base de datos o el excel, inclúyelos en los assets:
+assets = "Ventas_Compridas"
